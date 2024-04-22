@@ -1,0 +1,42 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 3px 3px 0 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 0.85rem;
+  margin: 0 3px;
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+}
+
+#nav-all{
+  font-size: medium;
+  font-weight: bold;
+  border-right: 2px black solid;
+  padding-right: 6px;
+}
+
+#nav-submit{
+  border-right: 2px black solid;
+  padding-right: 6px;
+}
+
+#nav-favorite{
+  border-right: 2px black solid;
+  padding-right: 6px;
+}
